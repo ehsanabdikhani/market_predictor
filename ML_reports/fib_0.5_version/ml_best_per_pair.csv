@@ -1,0 +1,15 @@
+pair,file,model,samples,train_samples,test_samples,cv_balanced_accuracy,test_accuracy,test_balanced_accuracy,test_precision,test_recall,test_f1,test_roc_auc,best_params,confusion_matrix,model_path
+EURAUD,EURAUD_23.csv,ExtraTrees,2755,2480,275,0.5767216314335283,0.5927272727272728,0.5907136030582989,0.592378649229043,0.5927272727272728,0.5925216450216451,0.6358978443240947,"{'model__n_estimators': 200, 'model__min_samples_leaf': 1, 'model__max_features': None, 'model__max_depth': None}","[[91 55]
+ [57 72]]",trained_models\EURAUD\EURAUD_23_ExtraTrees.joblib
+EURCHF,EURCHF_14.csv,GradientBoosting,2040,1836,204,0.5555235135164002,0.6029411764705882,0.6084882936699104,0.6159096299810247,0.6029411764705882,0.5985312265589082,0.5835340591579151,"{'model__n_estimators': 200, 'model__min_samples_leaf': 20, 'model__max_depth': 2, 'model__learning_rate': 0.01}","[[53 54]
+ [27 70]]",trained_models\EURCHF\EURCHF_14_GradientBoosting.joblib
+EURGBP,EURGBP_10.csv,RandomForest,2959,2664,295,0.5540301149756545,0.6101694915254238,0.610674208977189,0.6111454369286506,0.6101694915254238,0.6100888564011141,0.6002575423105224,"{'model__n_estimators': 500, 'model__min_samples_leaf': 2, 'model__max_features': None, 'model__max_depth': 3}","[[89 62]
+ [53 91]]",trained_models\EURGBP\EURGBP_10_RandomForest.joblib
+EURJPY,EURJPY_20.csv,ExtraTrees,1863,1677,186,0.6063445447205248,0.6505376344086021,0.6151315789473684,0.6412006044351072,0.6505376344086021,0.6426232322231201,0.5845516569200779,"{'model__n_estimators': 200, 'model__min_samples_leaf': 1, 'model__max_features': None, 'model__max_depth': 10}","[[88 26]
+ [39 33]]",trained_models\EURJPY\EURJPY_20_ExtraTrees.joblib
+USDCAD,USDCAD_10.csv,LogisticRegression,2209,1989,220,0.5229017603652654,0.5772727272727273,0.578042328042328,0.5788244370655553,0.5772727272727273,0.5765995250638796,0.5365410052910053,"{'model__solver': 'liblinear', 'model__C': 2}","[[60 52]
+ [41 67]]",trained_models\USDCAD\USDCAD_10_LogisticRegression.joblib
+USDCHF,USDCHF_28.csv,LogisticRegression,1745,1571,174,0.5360230019836035,0.603448275862069,0.6334134615384616,0.7059239610963748,0.603448275862069,0.572791538503049,0.609909188034188,"{'model__solver': 'lbfgs', 'model__C': 10}","[[33 63]
+ [ 6 72]]",trained_models\USDCHF\USDCHF_28_LogisticRegression.joblib
+USDJPY,USDJPY_10.csv,SVM,1813,1632,181,0.5445287636258268,0.5966850828729282,0.5941550501345072,0.5960785446383258,0.5966850828729282,0.5948983624278799,0.6246025923208608,"{'model__kernel': 'rbf', 'model__gamma': 'auto', 'model__C': 0.1}","[[62 32]
+ [41 46]]",trained_models\USDJPY\USDJPY_10_SVM.joblib
